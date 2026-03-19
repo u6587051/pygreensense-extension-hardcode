@@ -5,7 +5,7 @@ class MutableDefaultArgumentsRule:
     id = "GCS006"                  # Unique rule identifier for the Green Code Smell catalog
     name = "MutableDefaultArguments"  # Short display name used in reports and issue dictionaries
     description = "Detects functions that use mutable default arguments."
-    severity = "Medium"            # Impact severity level for this code smell
+    severity = "Low"            # Impact severity level for this code smell
 
     def check(self, tree):
         """

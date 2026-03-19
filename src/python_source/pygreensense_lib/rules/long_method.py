@@ -5,7 +5,7 @@ class LongMethodRule:
     id = "GCS004"                  # Unique rule identifier for the Green Code Smell catalog
     name = "LongMethod"            # Short display name used in reports and issue dictionaries
     description = "Detects methods that are too long based on LOC and cyclomatic complexity."
-    severity = "Medium"            # Impact severity level for this code smell
+    severity = "High"            # Impact severity level for this code smell
     
     def __init__(self, max_loc=30, max_cc=10):
         """

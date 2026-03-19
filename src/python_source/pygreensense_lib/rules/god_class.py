@@ -5,7 +5,7 @@ class GodClassRule:
     id = "GCS002"                  # Unique rule identifier for the Green Code Smell catalog
     name = "GodClass"              # Short display name used in reports and issue dictionaries
     description = "Detects classes that have too many responsibilities (God Class anti-pattern)."
-    severity = "High"              # Impact severity level for this code smell
+    severity = "Medium"              # Impact severity level for this code smell
     
     def __init__(self, max_methods=10, max_cc=35, max_loc=100):
         """

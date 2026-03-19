@@ -6,7 +6,7 @@ class DeadCodeRule:
     id = "GCS005"                  # Unique rule identifier for the Green Code Smell catalog
     name = "DeadCode"              # Short display name used in reports and issue dictionaries
     description = "Detects unreachable code and unused definitions."
-    severity = "Medium"            # Impact severity level for this code smell
+    severity = "High"            # Impact severity level for this code smell
     
     def __init__(self, project_root=None):
         """
