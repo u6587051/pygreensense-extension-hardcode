@@ -1,3 +1,5 @@
+--extra-index-url https://test.pypi.org/simple/
+
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.12.1
@@ -27,8 +29,7 @@ pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
 Pygments==2.19.2
-pygreensense==0.0.3
--e git+https://github.com/u6587051/pygreensense-extension.git@204d135477904392f3c65485d2ad1f6c298a0b3c#egg=pygreensense_lib&subdirectory=src/python_source
+pygreensense==0.0.4
 python-dateutil==2.9.0.post0
 questionary==2.1.1
 RapidFuzz==3.14.3
