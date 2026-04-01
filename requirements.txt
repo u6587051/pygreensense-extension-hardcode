@@ -29,7 +29,7 @@ pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
 Pygments==2.19.2
-pygreensense==0.0.4
+pygreensense==0.0.5
 python-dateutil==2.9.0.post0
 questionary==2.1.1
 RapidFuzz==3.14.3
