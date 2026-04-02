@@ -171,7 +171,7 @@ class Company:
             if isinstance(manager, SalariedEmployee):
                 total_salary += manager.monthly_salary * 12
 
-        # Loop 3: calculate hourly employee costs
+        # Loop 3: calculat  e hourly employee costs
         for employee in others:
             if isinstance(employee, HourlyEmployee):
                 for month in range(12):
